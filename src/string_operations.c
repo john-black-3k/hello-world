@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <wchar.h>
 
-size_t w_strlen(const wchar_t *s)
+size_t my_wstrlen(const wchar_t *s)
 {
    const wchar_t *p = s;
 
